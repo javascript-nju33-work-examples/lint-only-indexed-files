@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "husky": "^0.13.1",
+    "lint-staged": "^3.3.0",
+    "xo": "^0.17.1"
+  },
+  "scripts": {
+    "_precommit": "npm run lint-staged",
+    "lint:js": "xo",
+    "lint-staged": "lint-staged"
+  }
+}
